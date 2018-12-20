@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.18.2-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0"/>
+    <node id="n0">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="270.625" width="193.75" x="1010.0029449462891" y="-471.237609368067"/>
+          <y:Fill color="#F0F0F0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="false" width="187.984375" x="2.8828125" y="98.390625">DMARC XML
+reports<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="270.625" width="600.0" x="781.8764724731445" y="364.7355041503905"/>
+          <y:Fill color="#DBFFF1" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="60" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="false" width="244.087890625" x="4.0" y="4.0">Asterisk</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="270.625" width="600.0" x="781.8764724731445" y="765.1018066406249"/>
+          <y:Fill color="#DBFFF1" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="60" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="false" width="244.087890625" x="4.0" y="4.0">Asterisk</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="270.625" width="600.0" x="781.8764724731445" y="-35.63079833984381"/>
+          <y:Fill color="#DBFFF1" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="60" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="false" width="244.087890625" x="4.0" y="4.0">Asterisk</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="270.625" width="600.0" x="-66.23775166478646" y="-435.9971008300781"/>
+          <y:Fill color="#DBE9FF" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="60" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="false" width="244.087890625" x="4.0" y="4.0">Asterisk</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="108.47457885742188" width="372.8813781738281" x="895.4357833862305" y="45.44441223144531"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="184.44068908691406" y="52.23728942871094"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="123.07691955566406" width="368.05767822265625" x="897.8476333618164" y="838.8758468627929"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="80.54395294189453" width="380.2195129394531" x="891.766716003418" y="459.77602767944325"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="188.10975646972656" y="38.271976470947266"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="3"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="270.625" width="193.75" x="985.0014724731445" y="-435.9971008300781"/>
+          <y:Fill color="#F0F0F0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="187.984375" x="2.882812500000057" y="98.390625">DMARC XML
+reports<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="109.84609985351562" width="110.42109680175781" x="-39.87332730554414" y="-355.60765075683594"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Sans Condensed" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.7421875" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="e" textColor="#000000" verticalTextPosition="bottom" visible="true" width="438.8681640625" x="114.42109680175781" y="32.55195617675781">dmarc-imap-downloader.py</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="409.24196391076634" width="411.08466825482617" x="28.219914207800457" y="295.42702219500734"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="169.439453125" x="120.82260756491308" y="413.24196391076634">Mail server</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <edge id="e0" source="n3" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="5.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n1" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="5.0"/>
+          <y:Arrows source="standard" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n8" target="n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="5.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n4" target="n8">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="4.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n4" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="5.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="163.169921875" x="-177.4761925904311" y="207.15702309134522">IMAP fetch<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="95.89122718052744" distanceToCenter="true" position="right" ratio="0.49085840987867563" segment="-1"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1">&lt;svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 80"&gt;&lt;defs&gt;&lt;style&gt;.cls-1{fill:#00bfb3;}.cls-2{fill:#fec514;}.cls-3{fill:#343741;}&lt;/style&gt;&lt;/defs&gt;&lt;title&gt;Logstash Color Lockup&lt;/title&gt;&lt;rect class="cls-1" x="40" y="48" width="22" height="24"/&gt;&lt;path class="cls-2" d="M10,8H8V48H34V32A24,24,0,0,0,10,8Z"/&gt;&lt;path class="cls-3" d="M8,48H8A24,24,0,0,0,32,72h2V48Z"/&gt;&lt;path d="M83.89,49.18H79.48V20h4.41Z"/&gt;&lt;path d="M108.58,38.78c0,3.38-.87,6-2.6,7.93a9.35,9.35,0,0,1-7.26,2.85,10,10,0,0,1-5.14-1.31,8.72,8.72,0,0,1-3.43-3.77,12.85,12.85,0,0,1-1.2-5.7c0-3.37.86-6,2.59-7.88a9.35,9.35,0,0,1,7.29-2.83A9.15,9.15,0,0,1,106,31,11.18,11.18,0,0,1,108.58,38.78Zm-15.09,0q0,7.17,5.3,7.18T104,38.78q0-7.11-5.28-7.11a4.52,4.52,0,0,0-4,1.84A9.35,9.35,0,0,0,93.49,38.78Z"/&gt;&lt;path d="M131.16,28.45v2.41l-3.55.66a5.65,5.65,0,0,1,.81,1.61,6.49,6.49,0,0,1,.32,2,6.2,6.2,0,0,1-2.21,5,9.25,9.25,0,0,1-6.1,1.84,9.92,9.92,0,0,1-1.8-.15A2.47,2.47,0,0,0,117.21,44a1.15,1.15,0,0,0,.66,1.07,5.73,5.73,0,0,0,2.45.36h3.62a8,8,0,0,1,5.21,1.46,5.13,5.13,0,0,1,1.78,4.22A6.15,6.15,0,0,1,128,56.5q-2.91,1.91-8.4,1.91a11.57,11.57,0,0,1-6.47-1.5,4.85,4.85,0,0,1-2.23-4.28,4.57,4.57,0,0,1,1.2-3.21,6.52,6.52,0,0,1,3.39-1.81,3.26,3.26,0,0,1-1.45-1.21,3.1,3.1,0,0,1,.08-3.72,7.72,7.72,0,0,1,1.95-1.6,5.77,5.77,0,0,1-2.62-2.26,6.69,6.69,0,0,1-1-3.66,6.56,6.56,0,0,1,2.13-5.23,8.94,8.94,0,0,1,6.07-1.86,14.93,14.93,0,0,1,1.84.12,10.85,10.85,0,0,1,1.46.26Zm-16.3,24a2.41,2.41,0,0,0,1.29,2.19,7.07,7.07,0,0,0,3.61.77,10.88,10.88,0,0,0,5.36-1,3.1,3.1,0,0,0,1.76-2.74,2.05,2.05,0,0,0-1-1.92,7.79,7.79,0,0,0-3.59-.57H119a4.71,4.71,0,0,0-3,.89A2.91,2.91,0,0,0,114.86,52.41Zm1.9-17.25a4.17,4.17,0,0,0,1,3,3.8,3.8,0,0,0,2.88,1.05q3.83,0,3.82-4.09a4.63,4.63,0,0,0-.94-3.12,3.62,3.62,0,0,0-2.88-1.1,3.7,3.7,0,0,0-2.9,1.09A4.54,4.54,0,0,0,116.76,35.16Z"/&gt;&lt;path d="M148.93,43.28a5.44,5.44,0,0,1-2.21,4.66,10.62,10.62,0,0,1-6.34,1.62,14.89,14.89,0,0,1-6.65-1.26V44.5a16.35,16.35,0,0,0,6.8,1.68q4.07,0,4.07-2.45a2,2,0,0,0-.45-1.32,5.18,5.18,0,0,0-1.48-1.08,25.2,25.2,0,0,0-2.87-1.28A13.33,13.33,0,0,1,135,37.28a5.17,5.17,0,0,1-1.26-3.6,4.73,4.73,0,0,1,2.14-4.14,10.23,10.23,0,0,1,5.85-1.47,16.47,16.47,0,0,1,6.91,1.48l-1.42,3.32a15.52,15.52,0,0,0-5.64-1.39c-2.33,0-3.49.67-3.49,2a2,2,0,0,0,.91,1.65,20,20,0,0,0,4,1.86,17.65,17.65,0,0,1,3.73,1.82,5.43,5.43,0,0,1,1.73,1.9A5.58,5.58,0,0,1,148.93,43.28Z"/&gt;&lt;path d="M161.42,46a10.61,10.61,0,0,0,3.22-.51v3.32a8.65,8.65,0,0,1-1.88.53,12.5,12.5,0,0,1-2.39.22q-6.27,0-6.26-6.6V31.78h-2.83v-2l3-1.61,1.5-4.39h2.72v4.62h5.91v3.33h-5.91v11.1a3.13,3.13,0,0,0,.8,2.36A2.93,2.93,0,0,0,161.42,46Z"/&gt;&lt;path d="M181.76,49.18l-.88-2.88h-.15a8.37,8.37,0,0,1-3,2.57,9.46,9.46,0,0,1-3.9.69A6.6,6.6,0,0,1,169,47.91a6.19,6.19,0,0,1-1.71-4.67,5.48,5.48,0,0,1,2.38-4.84q2.37-1.63,7.25-1.78l3.58-.11V35.4a4.24,4.24,0,0,0-.92-3,3.78,3.78,0,0,0-2.88-1,10.08,10.08,0,0,0-3.06.46A25.65,25.65,0,0,0,170.87,33l-1.43-3.15a15.48,15.48,0,0,1,3.7-1.34,16.8,16.8,0,0,1,3.79-.46q3.94,0,6,1.73t2,5.41v14Zm-6.56-3a5.42,5.42,0,0,0,3.85-1.34,4.84,4.84,0,0,0,1.46-3.76v-1.8l-2.67.12a9,9,0,0,0-4.52,1,3.15,3.15,0,0,0-1.42,2.84,2.76,2.76,0,0,0,.83,2.14A3.51,3.51,0,0,0,175.2,46.18Z"/&gt;&lt;path d="M205,43.28a5.42,5.42,0,0,1-2.21,4.66,10.6,10.6,0,0,1-6.34,1.62,14.89,14.89,0,0,1-6.65-1.26V44.5a16.38,16.38,0,0,0,6.8,1.68c2.72,0,4.07-.82,4.07-2.45a2,2,0,0,0-.45-1.32,5.18,5.18,0,0,0-1.48-1.08,25.2,25.2,0,0,0-2.87-1.28A13.27,13.27,0,0,1,191,37.28a5.13,5.13,0,0,1-1.27-3.6,4.74,4.74,0,0,1,2.15-4.14,10.2,10.2,0,0,1,5.84-1.47,16.52,16.52,0,0,1,6.92,1.48l-1.43,3.32a15.52,15.52,0,0,0-5.64-1.39c-2.33,0-3.49.67-3.49,2a2,2,0,0,0,.91,1.65A20.21,20.21,0,0,0,199,37a18.17,18.17,0,0,1,3.73,1.82,5.4,5.4,0,0,1,1.72,1.9A5.46,5.46,0,0,1,205,43.28Z"/&gt;&lt;path d="M228,49.18h-4.42V36.43a5.6,5.6,0,0,0-1-3.58,3.73,3.73,0,0,0-3.07-1.18,4.83,4.83,0,0,0-4.07,1.66q-1.31,1.66-1.31,5.56V49.18h-4.4V20h4.4v7.4a34.54,34.54,0,0,1-.22,3.81h.28a6.09,6.09,0,0,1,2.5-2.32,8.08,8.08,0,0,1,3.74-.83q7.54,0,7.54,7.59Z"/&gt;&lt;/svg&gt;</y:Resource>
+      <y:Resource id="2">&lt;svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 80"&gt;&lt;defs&gt;&lt;style&gt;.cls-1{fill:#343741;}.cls-1,.cls-2,.cls-3{fill-rule:evenodd;}.cls-2{fill:#f04e98;}.cls-3{fill:#00bfb3;}&lt;/style&gt;&lt;/defs&gt;&lt;title&gt;Kibana Color Lockup&lt;/title&gt;&lt;path d="M84.21,40.23l2.49-3.11L93,30.45H98l-8.34,8.9,8.87,11.83H93.39l-6.65-9.09-2.42,2v7.1H80V22h4.37V36.24l-.23,4Z"/&gt;&lt;path d="M101.64,25a2.45,2.45,0,0,1,.65-1.82,2.54,2.54,0,0,1,1.85-.63,2.49,2.49,0,0,1,1.81.63,2.45,2.45,0,0,1,.64,1.82,2.39,2.39,0,0,1-.64,1.77,2.42,2.42,0,0,1-1.81.65,2.47,2.47,0,0,1-1.85-.65A2.39,2.39,0,0,1,101.64,25Zm4.67,26.23h-4.4V30.45h4.4Z"/&gt;&lt;path d="M123.21,30.07a7.2,7.2,0,0,1,6,2.81q2.17,2.82,2.17,7.9c0,3.4-.73,6-2.2,7.94a8,8,0,0,1-12.2,0h-.3l-.81,2.45h-3.3V22H117V29c0,.51,0,1.27-.08,2.28s-.08,1.66-.11,1.93H117A7,7,0,0,1,123.21,30.07Zm-1.15,3.6a4.46,4.46,0,0,0-3.83,1.57c-.78,1-1.19,2.79-1.21,5.24v.3q0,3.78,1.2,5.48a4.46,4.46,0,0,0,3.92,1.7,4,4,0,0,0,3.55-1.86,9.8,9.8,0,0,0,1.21-5.36Q126.9,33.67,122.06,33.67Z"/&gt;&lt;path d="M149.51,51.18l-.88-2.88h-.15a8.45,8.45,0,0,1-3,2.57,9.46,9.46,0,0,1-3.9.69,6.6,6.6,0,0,1-4.77-1.65,6.2,6.2,0,0,1-1.72-4.67,5.49,5.49,0,0,1,2.39-4.84q2.37-1.63,7.25-1.78l3.58-.11V37.4a4.24,4.24,0,0,0-.92-3,3.78,3.78,0,0,0-2.88-1,10.08,10.08,0,0,0-3.06.46A25.65,25.65,0,0,0,138.62,35l-1.43-3.15a15.48,15.48,0,0,1,3.7-1.34,16.74,16.74,0,0,1,3.79-.46q3.94,0,6,1.73t2,5.41v14Zm-6.56-3a5.42,5.42,0,0,0,3.85-1.34,4.84,4.84,0,0,0,1.46-3.76v-1.8l-2.67.12a9,9,0,0,0-4.52,1,3.15,3.15,0,0,0-1.42,2.84,2.79,2.79,0,0,0,.82,2.14A3.56,3.56,0,0,0,143,48.18Z"/&gt;&lt;path d="M177.06,51.18h-4.43V38.43a5.6,5.6,0,0,0-1-3.58,3.74,3.74,0,0,0-3.07-1.18,4.89,4.89,0,0,0-4.09,1.65q-1.29,1.65-1.29,5.53V51.18h-4.41V30.45h3.45l.62,2.71h.23a6.08,6.08,0,0,1,2.66-2.28,8.87,8.87,0,0,1,3.82-.81q7.47,0,7.47,7.59Z"/&gt;&lt;path d="M196.16,51.18l-.88-2.88h-.15a8.45,8.45,0,0,1-3,2.57,9.46,9.46,0,0,1-3.9.69,6.59,6.59,0,0,1-4.77-1.65,6.2,6.2,0,0,1-1.72-4.67,5.49,5.49,0,0,1,2.39-4.84q2.37-1.63,7.25-1.78l3.58-.11V37.4a4.24,4.24,0,0,0-.92-3,3.78,3.78,0,0,0-2.88-1,10.08,10.08,0,0,0-3.06.46A25.65,25.65,0,0,0,185.27,35l-1.43-3.15a15.48,15.48,0,0,1,3.7-1.34,16.8,16.8,0,0,1,3.79-.46q3.94,0,6,1.73t2,5.41v14Zm-6.56-3a5.42,5.42,0,0,0,3.85-1.34,4.84,4.84,0,0,0,1.46-3.76v-1.8l-2.67.12a9,9,0,0,0-4.52,1,3.15,3.15,0,0,0-1.42,2.84,2.79,2.79,0,0,0,.82,2.14A3.54,3.54,0,0,0,189.6,48.18Z"/&gt;&lt;path class="cls-1" d="M8,32V65.58L31.87,38.09A49.82,49.82,0,0,0,8,32Z"/&gt;&lt;path class="cls-2" d="M8,8V32a49.82,49.82,0,0,1,23.87,6.09L58,8Z"/&gt;&lt;path class="cls-3" d="M37,41.31,12.53,69.51,10.37,72H57A50,50,0,0,0,37,41.31Z"/&gt;&lt;/svg&gt;</y:Resource>
+      <y:Resource id="3">&lt;svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 80"&gt;&lt;defs&gt;&lt;style&gt;.cls-1{fill:#343741;}.cls-1,.cls-2,.cls-3{fill-rule:evenodd;}.cls-2{fill:#fec514;}.cls-3{fill:#00bfb3;}&lt;/style&gt;&lt;/defs&gt;&lt;title&gt;Elastic Search Color Lockup&lt;/title&gt;&lt;path d="M93.27,49.56a10,10,0,0,1-7.56-2.82A10.73,10.73,0,0,1,83,39c0-3.38.84-6.05,2.53-8a8.75,8.75,0,0,1,7-2.91A8.54,8.54,0,0,1,99,30.56a9.54,9.54,0,0,1,2.38,6.87v2.38H87.52a6.78,6.78,0,0,0,1.63,4.64,5.68,5.68,0,0,0,4.33,1.62,15.48,15.48,0,0,0,3.42-.35,17.49,17.49,0,0,0,3.4-1.15v3.58A13.45,13.45,0,0,1,97,49.24,20.24,20.24,0,0,1,93.27,49.56Zm-.8-18.15a4.42,4.42,0,0,0-3.37,1.33,6.35,6.35,0,0,0-1.51,3.88H97a5.71,5.71,0,0,0-1.23-3.89A4.24,4.24,0,0,0,92.47,31.41Z"/&gt;&lt;path d="M110.75,49.18h-4.41V20h4.41Z"/&gt;&lt;path d="M130,49.18l-.88-2.88H129a8.45,8.45,0,0,1-3,2.57,9.46,9.46,0,0,1-3.9.69,6.59,6.59,0,0,1-4.77-1.65,6.2,6.2,0,0,1-1.72-4.67A5.49,5.49,0,0,1,118,38.4q2.37-1.63,7.25-1.78l3.58-.11V35.4a4.2,4.2,0,0,0-.93-3,3.74,3.74,0,0,0-2.87-1,10,10,0,0,0-3.06.46A25.65,25.65,0,0,0,119.13,33l-1.43-3.15a15.48,15.48,0,0,1,3.7-1.34,16.72,16.72,0,0,1,3.78-.46q4,0,6,1.73t2,5.41v14Zm-6.56-3a5.42,5.42,0,0,0,3.85-1.34,4.84,4.84,0,0,0,1.46-3.76v-1.8l-2.67.12a9.08,9.08,0,0,0-4.53,1,3.16,3.16,0,0,0-1.41,2.84,2.75,2.75,0,0,0,.82,2.14A3.54,3.54,0,0,0,123.46,46.18Z"/&gt;&lt;path d="M153.25,43.28A5.42,5.42,0,0,1,151,47.94a10.6,10.6,0,0,1-6.34,1.62,14.89,14.89,0,0,1-6.65-1.26V44.5a16.35,16.35,0,0,0,6.8,1.68c2.72,0,4.07-.82,4.07-2.45a2,2,0,0,0-.45-1.32A5.18,5.18,0,0,0,147,41.33a25.2,25.2,0,0,0-2.87-1.28,13.33,13.33,0,0,1-4.85-2.77,5.17,5.17,0,0,1-1.26-3.6,4.71,4.71,0,0,1,2.15-4.14A10.18,10.18,0,0,1,146,28.07a16.55,16.55,0,0,1,6.92,1.48l-1.43,3.32a15.52,15.52,0,0,0-5.64-1.39c-2.33,0-3.49.67-3.49,2a2,2,0,0,0,.91,1.65,20,20,0,0,0,4,1.86A18,18,0,0,1,151,38.8a5.4,5.4,0,0,1,1.72,1.9A5.46,5.46,0,0,1,153.25,43.28Z"/&gt;&lt;path d="M165.74,46a10.67,10.67,0,0,0,3.23-.51v3.32a8.93,8.93,0,0,1-1.89.53,12.43,12.43,0,0,1-2.39.22q-6.25,0-6.26-6.6V31.78H155.6v-2l3-1.61,1.5-4.39h2.72v4.62h5.91v3.33h-5.91v11.1a3.13,3.13,0,0,0,.8,2.36A2.93,2.93,0,0,0,165.74,46Z"/&gt;&lt;path d="M172.85,23a2.45,2.45,0,0,1,.64-1.82,2.54,2.54,0,0,1,1.85-.63A2.23,2.23,0,0,1,177.8,23a2.25,2.25,0,0,1-2.46,2.42,2.47,2.47,0,0,1-1.85-.65A2.39,2.39,0,0,1,172.85,23Zm4.67,26.23h-4.41V28.45h4.41Z"/&gt;&lt;path d="M192.18,49.56c-3.14,0-5.52-.92-7.16-2.75s-2.44-4.46-2.44-7.88.85-6.17,2.56-8,4.17-2.81,7.39-2.81a13.91,13.91,0,0,1,5.91,1.22l-1.33,3.54a13.41,13.41,0,0,0-4.61-1.08q-5.38,0-5.38,7.14a8.52,8.52,0,0,0,1.34,5.24,4.62,4.62,0,0,0,3.92,1.75A11.2,11.2,0,0,0,198,44.42v3.84a8.46,8.46,0,0,1-2.52,1A15.11,15.11,0,0,1,192.18,49.56Z"/&gt;&lt;path d="M216.76,43.28a5.44,5.44,0,0,1-2.21,4.66,10.62,10.62,0,0,1-6.34,1.62,15,15,0,0,1-6.66-1.26V44.5a16.43,16.43,0,0,0,6.81,1.68q4.06,0,4.07-2.45a2,2,0,0,0-.45-1.32,5.33,5.33,0,0,0-1.48-1.08,26,26,0,0,0-2.87-1.28,13.24,13.24,0,0,1-4.85-2.77,5.17,5.17,0,0,1-1.26-3.6,4.73,4.73,0,0,1,2.14-4.14,10.2,10.2,0,0,1,5.84-1.47,16.48,16.48,0,0,1,6.92,1.48L215,32.87a15.52,15.52,0,0,0-5.65-1.39c-2.32,0-3.48.67-3.48,2a2,2,0,0,0,.9,1.65,20.21,20.21,0,0,0,4,1.86,17.91,17.91,0,0,1,3.73,1.82,5.43,5.43,0,0,1,1.73,1.9A5.58,5.58,0,0,1,216.76,43.28Z"/&gt;&lt;path d="M230.58,49.56A10,10,0,0,1,223,46.74,10.73,10.73,0,0,1,220.28,39c0-3.38.85-6.05,2.54-8a8.71,8.71,0,0,1,7-2.91,8.56,8.56,0,0,1,6.49,2.49,9.54,9.54,0,0,1,2.38,6.87v2.38H224.82a6.82,6.82,0,0,0,1.63,4.64,5.69,5.69,0,0,0,4.33,1.62,15.51,15.51,0,0,0,3.43-.35,17.71,17.71,0,0,0,3.4-1.15v3.58a13.59,13.59,0,0,1-3.26,1.09A20.24,20.24,0,0,1,230.58,49.56Zm-.81-18.15a4.4,4.4,0,0,0-3.36,1.33,6.3,6.3,0,0,0-1.51,3.88h9.41a5.77,5.77,0,0,0-1.24-3.89A4.24,4.24,0,0,0,229.77,31.41Z"/&gt;&lt;path d="M256.62,49.18l-.88-2.88h-.15a8.45,8.45,0,0,1-3,2.57,9.46,9.46,0,0,1-3.9.69,6.59,6.59,0,0,1-4.77-1.65,6.2,6.2,0,0,1-1.72-4.67,5.49,5.49,0,0,1,2.39-4.84q2.37-1.63,7.25-1.78l3.58-.11V35.4a4.2,4.2,0,0,0-.93-3,3.74,3.74,0,0,0-2.87-1,10,10,0,0,0-3.06.46A25.65,25.65,0,0,0,245.73,33l-1.43-3.15a15.48,15.48,0,0,1,3.7-1.34,16.72,16.72,0,0,1,3.78-.46q4,0,6,1.73t2,5.41v14Zm-6.56-3a5.42,5.42,0,0,0,3.85-1.34,4.84,4.84,0,0,0,1.46-3.76v-1.8l-2.67.12a9.08,9.08,0,0,0-4.53,1,3.16,3.16,0,0,0-1.41,2.84,2.75,2.75,0,0,0,.82,2.14A3.54,3.54,0,0,0,250.06,46.18Z"/&gt;&lt;path d="M276.44,28.07a10.17,10.17,0,0,1,2.19.19l-.43,4.1a8.27,8.27,0,0,0-1.95-.22A5.63,5.63,0,0,0,272,33.86a6.23,6.23,0,0,0-1.64,4.49V49.18h-4.41V28.45h3.45L270,32.1h.23a8.13,8.13,0,0,1,2.69-2.94A6.35,6.35,0,0,1,276.44,28.07Z"/&gt;&lt;path d="M290.84,49.56q-4.71,0-7.15-2.75t-2.45-7.88q0-5.24,2.56-8c1.71-1.87,4.17-2.81,7.4-2.81a13.9,13.9,0,0,1,5.9,1.22l-1.33,3.54a13.41,13.41,0,0,0-4.61-1.08q-5.39,0-5.38,7.14a8.52,8.52,0,0,0,1.34,5.24,4.63,4.63,0,0,0,3.93,1.75,11.23,11.23,0,0,0,5.57-1.46v3.84a8.52,8.52,0,0,1-2.53,1A15,15,0,0,1,290.84,49.56Z"/&gt;&lt;path d="M319.73,49.18h-4.42V36.43a5.54,5.54,0,0,0-1-3.58,3.71,3.71,0,0,0-3.06-1.18,4.86,4.86,0,0,0-4.08,1.66q-1.31,1.66-1.3,5.56V49.18h-4.41V20h4.41v7.4a34.65,34.65,0,0,1-.23,3.81H306a6.12,6.12,0,0,1,2.51-2.32,8,8,0,0,1,3.74-.83q7.53,0,7.53,7.59Z"/&gt;&lt;path class="cls-1" d="M8,40a32,32,0,0,0,1.05,8H48a8,8,0,0,0,8-8h0a8,8,0,0,0-8-8H9.09A32,32,0,0,0,8,40Z"/&gt;&lt;path class="cls-2" d="M61.89,23.32A29.59,29.59,0,0,0,65,20a31.92,31.92,0,0,0-53.67,6H55.06A10.07,10.07,0,0,0,61.89,23.32Z"/&gt;&lt;path class="cls-3" d="M55.06,54H11.33A31.92,31.92,0,0,0,65,60a29.59,29.59,0,0,0-3.11-3.32A10.07,10.07,0,0,0,55.06,54Z"/&gt;&lt;/svg&gt;</y:Resource>
+      <y:Resource id="4">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
+&lt;svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="110.4211" height="109.8461" id="svg2169" sodipodi:version="0.32" inkscape:version="0.45.1" version="1.0" sodipodi:docbase="/home/bene/Desktop" sodipodi:docname="dessin-1.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape" data-ember-extension="1"&gt;
+  &lt;defs id="defs2171"&gt;
+    &lt;linearGradient id="linearGradient11301" inkscape:collect="always"&gt;
+      &lt;stop id="stop11303" offset="0" style="stop-color:#ffe052;stop-opacity:1"/&gt;
+      &lt;stop id="stop11305" offset="1" style="stop-color:#ffc331;stop-opacity:1"/&gt;
+    &lt;/linearGradient&gt;
+    &lt;linearGradient gradientUnits="userSpaceOnUse" y2="168.1012" x2="147.77737" y1="111.92053" x1="89.136749" id="linearGradient11307" xlink:href="#linearGradient11301" inkscape:collect="always"/&gt;
+    &lt;linearGradient id="linearGradient9515" inkscape:collect="always"&gt;
+      &lt;stop id="stop9517" offset="0" style="stop-color:#387eb8;stop-opacity:1"/&gt;
+      &lt;stop id="stop9519" offset="1" style="stop-color:#366994;stop-opacity:1"/&gt;
+    &lt;/linearGradient&gt;
+    &lt;linearGradient gradientUnits="userSpaceOnUse" y2="131.85291" x2="110.14919" y1="77.070274" x1="55.549179" id="linearGradient9521" xlink:href="#linearGradient9515" inkscape:collect="always"/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.24748737" inkscape:cx="-260.46312" inkscape:cy="316.02744" inkscape:document-units="px" inkscape:current-layer="layer1" width="131.10236px" height="184.25197px" inkscape:window-width="872" inkscape:window-height="624" inkscape:window-x="5" inkscape:window-y="48"/&gt;
+  &lt;metadata id="metadata2174"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:label="Calque 1" inkscape:groupmode="layer" id="layer1" transform="translate(-473.36088,-251.72485)"&gt;
+    &lt;g id="g1894" transform="translate(428.42338,184.2561)"&gt;
+      &lt;path style="opacity:1;color:#000000;fill:url(#linearGradient9521);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" d="M 99.75,67.46875 C 71.718268,67.468752 73.46875,79.625 73.46875,79.625 L 73.5,92.21875 L 100.25,92.21875 L 100.25,96 L 62.875,96 C 62.875,96 44.9375,93.965724 44.9375,122.25 C 44.937498,150.53427 60.59375,149.53125 60.59375,149.53125 L 69.9375,149.53125 L 69.9375,136.40625 C 69.9375,136.40625 69.433848,120.75 85.34375,120.75 C 101.25365,120.75 111.875,120.75 111.875,120.75 C 111.875,120.75 126.78125,120.99096 126.78125,106.34375 C 126.78125,91.696544 126.78125,82.125 126.78125,82.125 C 126.78125,82.124998 129.04443,67.46875 99.75,67.46875 z M 85,75.9375 C 87.661429,75.937498 89.8125,78.088571 89.8125,80.75 C 89.812502,83.411429 87.661429,85.5625 85,85.5625 C 82.338571,85.562502 80.1875,83.411429 80.1875,80.75 C 80.187498,78.088571 82.338571,75.9375 85,75.9375 z " id="path8615"/&gt;
+      &lt;path id="path8620" d="M 100.5461,177.31485 C 128.57784,177.31485 126.82735,165.1586 126.82735,165.1586 L 126.7961,152.56485 L 100.0461,152.56485 L 100.0461,148.7836 L 137.4211,148.7836 C 137.4211,148.7836 155.3586,150.81787 155.3586,122.53359 C 155.35861,94.249323 139.70235,95.252343 139.70235,95.252343 L 130.3586,95.252343 L 130.3586,108.37734 C 130.3586,108.37734 130.86226,124.03359 114.95235,124.03359 C 99.042448,124.03359 88.421098,124.03359 88.421098,124.03359 C 88.421098,124.03359 73.514848,123.79263 73.514848,138.43985 C 73.514848,153.08705 73.514848,162.6586 73.514848,162.6586 C 73.514848,162.6586 71.251668,177.31485 100.5461,177.31485 z M 115.2961,168.8461 C 112.63467,168.8461 110.4836,166.69503 110.4836,164.0336 C 110.4836,161.37217 112.63467,159.2211 115.2961,159.2211 C 117.95753,159.2211 120.1086,161.37217 120.1086,164.0336 C 120.10861,166.69503 117.95753,168.8461 115.2961,168.8461 z " style="opacity:1;color:#000000;fill:url(#linearGradient11307);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"/&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</y:Resource>
+      <y:Resource id="5">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
+
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="125"
+   height="125"
+   viewBox="0 0 125 125"
+   sodipodi:docname="Stack Filled-100.svg"&gt;
+  &lt;metadata
+     id="metadata8"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs6" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="952"
+     inkscape:window-height="1072"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="5.3400704"
+     inkscape:cx="81.874673"
+     inkscape:cy="60.415215"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" /&gt;
+  &lt;path
+     style="fill:#000000"
+     d="m 0.525956,123.31764 c -0.36005064,-0.93828 -0.48505919,-5.30296 -0.27779676,-9.6993 L 0.625,105.625 l 61.875,0 61.875,0 0,9.375 0,9.375 -61.597204,0.3243 c -51.108325,0.26908 -61.7086753,0.0338 -62.25184,-1.38166 z m 110.138974,-5.86176 c 2.24308,-2.47858 2.23197,-2.61454 -0.43127,-5.27777 l -2.73366,-2.73366 -2.73366,2.73366 c -2.66324,2.66323 -2.67435,2.79919 -0.43127,5.27777 1.26632,1.39927 2.69054,2.54412 3.16493,2.54412 0.47439,0 1.89861,-1.14485 3.16493,-2.54412 z M 0.525956,98.31764 C 0.16590536,97.379364 0.04089681,93.014679 0.24815924,88.618341 L 0.625,80.625 l 61.875,0 61.875,0 0,9.375 0,9.375 -61.597204,0.324299 C 11.669471,99.968376 1.0691207,99.733105 0.525956,98.31764 Z M 110.66493,92.455883 c 2.24308,-2.478579 2.23197,-2.614539 -0.43127,-5.277778 l -2.73366,-2.73366 -2.73366,2.73366 c -2.66324,2.663239 -2.67435,2.799199 -0.43127,5.277778 C 105.60139,93.855147 107.02561,95 107.5,95 c 0.47439,0 1.89861,-1.144853 3.16493,-2.544117 z M 0.525956,73.31764 C 0.16590536,72.379364 0.04089681,68.014679 0.24815924,63.618341 L 0.625,55.625 l 61.875,0 61.875,0 0,9.375 0,9.375 -61.597204,0.324299 C 11.669471,74.968376 1.0691207,74.733105 0.525956,73.31764 Z M 110.66493,67.455883 c 2.24308,-2.478579 2.23197,-2.614539 -0.43127,-5.277778 l -2.73366,-2.73366 -2.73366,2.73366 c -2.66324,2.663239 -2.67435,2.799199 -0.43127,5.277778 C 105.60139,68.855147 107.02561,70 107.5,70 c 0.47439,0 1.89861,-1.144853 3.16493,-2.544117 z M 0.56010486,46.917255 C 0.96462614,44.877995 4.399763,33.48737 8.1937424,21.604755 L 15.091886,0 62.5,0 l 47.40811,0 6.89815,21.604755 c 3.79398,11.882615 7.26968,23.462447 7.72378,25.732961 l 0.82565,4.128205 L 62.590147,51.045461 -0.17538835,50.625 0.56010486,46.917255 Z"
+     id="path3338"
+     inkscape:connector-curvature="0" /&gt;
+  &lt;path
+     style="fill:#ffffff"
+     d="m 106.79944,69.519879 c -0.83185,-0.509864 -3.81784,-3.71857 -3.94982,-4.244433 -0.16582,-0.660682 0.36576,-1.397163 2.63409,-3.649423 l 1.98029,-1.966266 2.33622,2.355424 c 2.81888,2.842043 2.82789,2.874437 1.3111,4.713309 -1.07002,1.297235 -3.13886,3.137632 -3.52573,3.136425 -0.1234,-3.85e-4 -0.47717,-0.155651 -0.78615,-0.345036 z"
+     id="path3333"
+     inkscape:connector-curvature="0" /&gt;
+  &lt;path
+     style="fill:#ffffff"
+     d="m 106.64069,94.377099 c -0.97825,-0.647964 -3.19398,-2.966159 -3.61708,-3.784344 -0.42309,-0.818165 -0.13428,-1.280693 2.34174,-3.750265 l 2.20208,-2.196344 2.18077,2.227739 c 2.16851,2.215226 2.5435,2.806535 2.28877,3.609116 -0.16391,0.51643 -3.22033,3.699088 -3.97942,4.143776 -0.5431,0.318158 -0.56556,0.314201 -1.41686,-0.249678 z"
+     id="path3335"
+     inkscape:connector-curvature="0" /&gt;
+  &lt;path
+     style="fill:#ffffff"
+     d="m 106.79944,119.51922 c -0.83185,-0.50986 -3.81784,-3.71857 -3.94982,-4.24443 -0.16582,-0.66069 0.36576,-1.39717 2.63409,-3.64943 l 1.98029,-1.96626 2.33622,2.35542 c 2.81888,2.84205 2.82789,2.87444 1.3111,4.71331 -1.07002,1.29724 -3.13886,3.13763 -3.52573,3.13643 -0.1234,-3.9e-4 -0.47717,-0.15566 -0.78615,-0.34504 z"
+     id="path3337"
+     inkscape:connector-curvature="0" /&gt;
+&lt;/svg&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>

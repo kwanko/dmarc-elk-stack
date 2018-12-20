@@ -1,0 +1,116 @@
+[
+  {
+    "_id": "683e7dd0-ffcb-11e8-bf48-2542df260526",
+    "_type": "dashboard",
+    "_source": {
+      "title": "DMARC statistics",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{\"mapCenter\":[0,0],\"mapZoom\":1},\"gridData\":{\"x\":9,\"y\":16,\"w\":15,\"h\":15,\"i\":\"1\"},\"id\":\"8af28de0-fef3-11e8-bf48-2542df260526\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":31,\"i\":\"2\"},\"id\":\"7c1fbc10-fef4-11e8-bf48-2542df260526\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":5,\"w\":9,\"h\":26,\"i\":\"3\"},\"id\":\"963bac90-ffca-11e8-bf48-2542df260526\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{\"vis\":{\"colors\":{\"fail\":\"#E24D42\",\"pass\":\"#629E51\"},\"legendOpen\":false}},\"gridData\":{\"x\":9,\"y\":0,\"w\":15,\"h\":16,\"i\":\"4\"},\"id\":\"e5921010-ffd2-11e8-bf48-2542df260526\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":9,\"h\":5,\"i\":\"5\"},\"id\":\"5bd393a0-01e2-11e9-bf48-2542df260526\",\"panelIndex\":\"5\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"gridData\":{\"x\":0,\"y\":31,\"w\":48,\"h\":35,\"i\":\"6\"},\"id\":\"5a086d90-0203-11e9-bf48-2542df260526\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"1\":\"rgb(247,251,255)\"},\"legendOpen\":false}},\"gridData\":{\"x\":0,\"y\":66,\"w\":48,\"h\":16,\"i\":\"7\"},\"id\":\"d85758f0-043d-11e9-bf48-2542df260526\",\"panelIndex\":\"7\",\"type\":\"visualization\",\"version\":\"6.5.3\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7c1fbc10-fef4-11e8-bf48-2542df260526",
+    "_type": "visualization",
+    "_source": {
+      "title": "DMARC - dispositions",
+      "visState": "{\"title\":\"DMARC - dispositions\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":false,\"truncate\":100,\"rotate\":75},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"emails\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"emails\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"dmarc.record.row.count\",\"customLabel\":\"emails\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dmarc.report_metadata.org_name.keyword\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"org_name\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"dmarc.policy_published.domain.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"domain\",\"row\":true}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"dmarc.record.row.policy_evaluated.disposition.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"disposition\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"quarantine\":\"#EF843C\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d7322400-fec5-11e8-bf48-2542df260526\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8af28de0-fef3-11e8-bf48-2542df260526",
+    "_type": "visualization",
+    "_source": {
+      "title": "DMARC - worldmap",
+      "visState": "{\"title\":\"DMARC - worldmap\",\"type\":\"tile_map\",\"params\":{\"colorSchema\":\"Blues\",\"mapType\":\"Shaded Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.3,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"selectedTmsLayer\":{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.5.3&license=37b61e50-b8d8-40f1-8797-d33a9cb5fefd\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"dmarc.record.row.count\",\"customLabel\":\"emails\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"mapZoom\":2,\"mapCenter\":{\"lon\":0,\"lat\":-0.17578097424708533},\"precision\":2}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d7322400-fec5-11e8-bf48-2542df260526\",\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "5a086d90-0203-11e9-bf48-2542df260526",
+    "_type": "visualization",
+    "_source": {
+      "title": "DMARC - SPF domain for DKIM fails",
+      "visState": "{\"title\":\"DMARC - SPF domain for DKIM fails\",\"type\":\"horizontal_bar\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"emails\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"emails\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"dmarc.record.row.count\",\"customLabel\":\"emails\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dmarc.record.auth_results.spf.domain.keyword\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"spf domain\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d7322400-fec5-11e8-bf48-2542df260526\",\"query\":{\"query\":\"dmarc.record.row.policy_evaluated.dkim.keyword:\\\"fail\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e5921010-ffd2-11e8-bf48-2542df260526",
+    "_type": "visualization",
+    "_source": {
+      "title": "DMARC - DKIM repartition",
+      "visState": "{\"title\":\"DMARC - DKIM repartition\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"dmarc.record.row.count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dmarc.policy_published.domain.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"domain\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dmarc.record.row.policy_evaluated.dkim.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"dkim\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"fail\":\"#E24D42\",\"pass\":\"#629E51\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d7322400-fec5-11e8-bf48-2542df260526\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "5bd393a0-01e2-11e9-bf48-2542df260526",
+    "_type": "visualization",
+    "_source": {
+      "title": "DMARC - domain selector",
+      "visState": "{\"title\":\"DMARC - domain selector\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1545040686173\",\"indexPattern\":\"d7322400-fec5-11e8-bf48-2542df260526\",\"fieldName\":\"dmarc.policy_published.domain.keyword\",\"parent\":\"\",\"label\":\"domain\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true,\"pinFilters\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "963bac90-ffca-11e8-bf48-2542df260526",
+    "_type": "visualization",
+    "_source": {
+      "title": "DMARC - status",
+      "visState": "{\"title\":\"DMARC - status\",\"type\":\"timelion\",\"params\":{\"expression\":\".es('dmarc.record.row.policy_evaluated.dkim:\\\"pass\\\" AND dmarc.record.row.policy_evaluated.spf:\\\"pass\\\"', index=dmarc-report-*, metric=sum:dmarc.record.row.count, kibana=true).bars().color(#78AB84).label(\\\"pass\\\"),\\n.es('dmarc.record.row.policy_evaluated.dkim:\\\"pass\\\" AND dmarc.record.row.policy_evaluated.spf:\\\"fail\\\"', index=dmarc-report-*, metric=sum:dmarc.record.row.count, kibana=true).bars().color(#689BC4).label(\\\"forwarded emails (dkim pass, spf fail)\\\"),\\n.es('dmarc.record.row.policy_evaluated.dkim:\\\"fail\\\"', index=dmarc-report-*, metric=sum:dmarc.record.row.count, kibana=true).bars().color(#CC6363).label(\\\"fail\\\")\",\"interval\":\"1d\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d85758f0-043d-11e9-bf48-2542df260526",
+    "_type": "visualization",
+    "_source": {
+      "title": "DMARC - report sender organizations",
+      "visState": "{\"title\":\"DMARC - report sender organizations\",\"type\":\"heatmap\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"colorSchema\":\"Blues\",\"colorsNumber\":4,\"colorsRange\":[],\"enableHover\":false,\"invertColors\":false,\"legendPosition\":\"right\",\"percentageMode\":false,\"setColorRange\":false,\"times\":[],\"type\":\"heatmap\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"color\":\"#555\",\"overwriteColor\":false,\"rotate\":0,\"show\":false},\"scale\":{\"defaultYExtents\":true,\"type\":\"linear\"},\"show\":false,\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"dmarc.report_metadata.report_id.keyword\",\"customLabel\":\"sent reports\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dmarc.report_metadata.date_range.begin\",\"timeRange\":{\"from\":\"now-7d\",\"mode\":\"quick\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"interval\":\"d\",\"time_zone\":\"Europe/Berlin\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"date\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"dmarc.report_metadata.org_name.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"report sender organization\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"1 - 7\":\"rgb(247,251,255)\",\"7 - 13\":\"rgb(198,219,239)\",\"13 - 19\":\"rgb(107,174,214)\",\"19 - 24\":\"rgb(33,113,181)\"},\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d7322400-fec5-11e8-bf48-2542df260526\",\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  }
+]
