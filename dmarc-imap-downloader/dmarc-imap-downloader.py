@@ -68,7 +68,7 @@ def extract_dmarc_reports(imap_server, user, password, imap_folder,
             LOG.warning('skipping invalid email <{} | Subject: {}>'.format(envelope.date, envelope.subject.decode()))
 
     valid_report_filename_regex = re.compile('^([a-zA-Z0-9\-]+\.?)+!([a-zA-Z0-9\-]+\.?)+!\d{10}!\d{10}(![a-zA-Z0-9\-]+)?\.xml$')
-    valid_attachment_filename_regex = re.compile('^([a-zA-Z0-9\-]+\.?)+!([a-zA-Z0-9\-]+\.?)+!\d{10}!\d{10}(![a-zA-Z0-9\-]+)?\.(xml|xml\.gz|zip)$')
+    valid_attachment_filename_regex = re.compile('^([a-zA-Z0-9\-]+\.?)+!([a-zA-Z0-9\-]+\.?)+!\d{10}!\d{10}(![a-zA-Z0-9\-]+)?\.(xml|xml\.gz|zip|xml\.zip)$')
     dmarc_reports = []
     for attachment in attachments:
         filename = attachment['filename']
